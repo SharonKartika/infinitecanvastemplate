@@ -1,0 +1,28 @@
+.node {
+    border: 1px solid #AAAAAA;
+    position : absolute; 
+    padding: 5px;
+    border-radius: 10%;
+    user-select: none;
+}
+
+.ghostnode {
+    /* element is still rendered even if you remove the border */
+    /* border: 1px solid #AAAAAA; 
+    position : absolute; 
+    padding: 5px;
+    border-radius: 10%; */
+    user-select: none;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px
+}
