@@ -7,11 +7,10 @@
 }
 
 .ghostnode {
-    /* element is still rendered even if you remove the border */
-    /* border: 1px solid #AAAAAA; 
+    /* border: 1px solid #AAAAAA;  */
     position : absolute; 
-    padding: 5px;
-    border-radius: 10%; */
+    /* this is required */
+    padding: 5px; 
     user-select: none;
 }
 
