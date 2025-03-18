@@ -1,9 +1,28 @@
 .node {
-    border: 1px solid #AAAAAA;
+    border: 1px solid #000;
     position : absolute; 
     padding: 5px;
-    border-radius: 10%;
+    border-radius: 7px;
     user-select: none;
+    touch-action: none;
+}
+
+button {
+    border-radius: 3px;
+    margin: 2px;
+    border: none;
+    background-color: rgb(206, 216, 216);
+    width:  30px;
+    height: 30px;
+}
+
+#controlscontainer {
+    border: 1px solid #000;
+    padding: 3px;
+    border-radius: 7px;
+    position: fixed;
+    /* top: 100px;
+    left: 100px; */
 }
 
 .ghostnode {
